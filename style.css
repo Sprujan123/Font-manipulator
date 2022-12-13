@@ -1,0 +1,41 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    border-radius: 15px;
+    animation: box_shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+body{
+    background-color: rgb(217, 217, 24);
+}
+
+.text{
+    font-size: 18px;
+    color: black;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    line-height: 30px;
+    text-align: center;
+}
+
+@keyframes box_shadow{
+    from{box-shadow: 10px 10px 10px cyan;}
+    50%{box-shadow: 10px 10px 10px rgb(19, 205, 149);}
+    to{box-shadow: 10px 10px 10px turquoise;}
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
